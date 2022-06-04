@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap'); 
+
+
+html {
+  height: 100%;
+  webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  margin-top: 35px;  checar
+}
+
+body {
+  font-family: \'Arial\',sans-serif;
+  line-height: 90%;
+  color: #333;
+  font-size: .95em;
+  margin: 0;
+  padding-top: 0;
+  font-weight: 400;
+  letter-spacing: .2px;
+  display: block;
+
+  background #001135;
+
+
+
+
+}
+
+
+#ida-notification-bar{
+  background: #001135;
+  display: block;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0px;
+}
+
+
+
+
+
+.top_container_join {
+    display: inline-block;
+    position: sticky;
+    background-color: #ff8914 ;
+    width: 10%;
+    min-width: 100px;
+    height: 22px;
+    color: white
+    text-align: center;
+    padding: 9px 15px 4px 15px;
+    margin: 0px 0 0 15px;
+    text-decoration: none;
+    float: right;
+  }
+
+#top_container{
+  width: 100%;
+  background-color: #001135;
+  height: 36px;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+}
+
+  .top_container_join {
+    display: inline-block;
+    background-color: #ff8914  !important;
+    width: 10%;
+    min-width: 100px;
+    height: 22px;
+    color: white !important !important !important;
+    text-align: center;
+    padding: 9px 15px 4px 15px;
+    float: right;
+    margin: 0px 0 0 15px;
+    text-decoration: none;
+  }
+
+
+
+  b {
+    font-weight: bold;
+}
+
+#top_container a, 
+#top_container a:link {
+  color: #FFF;
+}
+
+
+
+.header_box  {
+  margin: 0 auto;
+  max-width: 1100px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 0;
+
+}
+
+#header{
+  background-color: #001135;
+  border-bottom: none;
+  padding-top: 15px;
+}
+
+.header {
+  background-color: #001135;
+  border-bottom: none;
+  padding-top: 15px;
+  padding: 15px 20px;
+
+  }
+
+  @media (max-width: 1024px)
+  .header {
+     padding: 15px 20 px
+       border-top: 1 px solid  #ddd;
+  }
+
+  
+.header_left {
+    width: 40%;
+    float: left;
+    
+}
+
+.header_right{
+  width: 60%;
+  float: right;
+  overflow: hidden;
+
+}
+
+
+
+
+
+
+
